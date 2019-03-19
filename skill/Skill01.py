@@ -1,7 +1,7 @@
 from collections import OrderedDict, Counter
+from emoji import emojize
 
 # 1、ALL OR ANY
-from emoji import emojize
 
 x = [True, True, False]
 print(any(x))
@@ -26,3 +26,20 @@ print(a)
 
 # 5、创建表情包
 print(emojize(":thumbs_up:"))
+
+# 6、GEOPHY
+# place = "221b Baker Street, London"
+# location = GoogleV3().geocode(place)
+# print(location.address)
+# print(location.location)
+
+# 7、HOWDOI
+
+# 8、INSPECT
+# import inspect
+# print(inspect.getsource(inspect.getsource))
+# print(inspect.getmodule(inspect.getmodule))
+# print(inspect.currentframe().f_lineno)
+
+# 9、JEDI
+# jedi库是一个代码自动补齐和静态分析的库。它可以使你更快更高效地书写代码。
