@@ -22,7 +22,7 @@ print(3 * 2.0)
 print(7 % 4)
 
 # x的y次方
-print(2**5)
+print(2 ** 5)
 
 # 用括号决定优先级
 print((1 + 3) * 2)
@@ -36,17 +36,17 @@ print(True and False)
 print(False or True)
 
 # 整数也可以当作布尔值
-print(0 and 2) # => 0
-print(-5 or 0) # => -5
-print(0 == False) # => True
-print(10 == True) # => False
-print(1 == True) # => True
+print(0 and 2)  # => 0
+print(-5 or 0)  # => -5
+print(0 == False)  # => True
+print(10 == True)  # => False
+print(1 == True)  # => True
 
 # 用==判断相等 用!=判断不等
-print(1==1)
-print(1==2)
-print(1!=1)
-print(1!=2)
+print(1 == 1)
+print(1 == 2)
+print(1 != 1)
+print(1 != 2)
 
 # 比较大小
 print(1 < 10)  # => True
