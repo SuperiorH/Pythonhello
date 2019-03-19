@@ -1,13 +1,23 @@
+from collections import OrderedDict, Counter
+
 """
 字典类似Java中的Map和Set
 """
 # 字典类似Java中的Map
 # 用字典表达映射关系
+
+#有序字典
+OrderedDict
+#计数字典
+Counter
+
 empty_dict = {}
 # 初始化的字典
 filled_dict = {"one": 1, "two": 2, "three": 3}
 filled_dict.update({"six": 6})
+xx = list(filled_dict.keys())
 print(filled_dict)
+print(xx[3])
 
 # 用[]取值
 print(filled_dict["three"])
