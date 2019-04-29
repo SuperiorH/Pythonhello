@@ -32,7 +32,8 @@ print(d)
 e = None
 print(e)
 
-# 当与None进行比较时不要用 ==，要用is。is是用来比较两个变量是否指向同一个对象。
+# 当与None进行比较时不要用 ==，要用is。
+# is是用来比较两个变量是否指向同一个对象。
 print(e is None)
 
 # None，0，空字符串，空列表，空字典都算是False
