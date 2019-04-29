@@ -44,7 +44,7 @@ print(filled_dict.get("four"))  # => None
 
 # 当键不存在的时候get方法可以返回默认值
 print(filled_dict.get("one", 4))  # => 1
-print(filled_dict.get("five", 5))  # => 4
+print(filled_dict.get("five", 100))  # => 4
 
 # setdefault方法只有当键不存在的时候插入新值
 filled_dict.setdefault("five", 5)  # filled_dict["five"]设为5

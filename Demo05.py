@@ -27,7 +27,7 @@ for i in our_iterable:
     print(i)  # 打印 one, two, three
 
 # 但是不可以随机访问
-our_iterable[1]  # 抛出TypeError
+# our_iterable[1]  # 抛出TypeError
 
 # 可迭代对象知道怎么生成迭代器
 our_iterator = iter(our_iterable)
@@ -41,10 +41,10 @@ our_iterator.__next__()  # => "two"
 our_iterator.__next__()  # => "three"
 
 # 当迭代器所有元素都取出后，会抛出StopIteration
-our_iterator.__next__() # 抛出StopIteration
+# our_iterator.__next__() # 抛出StopIteration
 
 # 可以用list一次取出迭代器所有的元素
-list(filled_dict.keys())  # => Returns ["one", "two", "three"]
+print(list(filled_dict.keys()))  # => Returns ["one", "two", "three"]
 
 # x = [True,True,False]
 # print(any(x))
